@@ -21,10 +21,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/poppins"
+        android:fontFamily="sans-serif-light"
         android:text="Add Task"
         android:textColor="@color/blue"
-        android:textSize="24sp"
+        android:textSize="34sp"
         android:textStyle="bold" />
 
     <TextView
@@ -34,6 +34,7 @@
         android:layout_below="@+id/addtask"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
         android:text="Task Title"
         android:textColor="@color/blue"
         android:textSize="20sp" />
@@ -59,6 +60,7 @@
         android:layout_below="@+id/titleEdit"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
         android:text="Task Time"
         android:textColor="@color/blue"
         android:textSize="20sp" />
@@ -85,6 +87,7 @@
         android:layout_below="@+id/timeEdit"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
         android:text="Add note"
         android:textColor="@color/blue"
         android:textSize="20sp" />
@@ -111,6 +114,7 @@
         android:layout_below="@+id/NoteEdit"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
         android:text="Priority"
         android:textColor="@color/blue"
         android:textSize="20sp" />

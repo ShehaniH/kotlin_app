@@ -15,28 +15,27 @@
 
         android:layout_marginStart="175dp"
 
-        android:layout_marginTop="116dp"
-
         android:layout_marginEnd="42dp"
 
-        android:backgroundTint="#3F51B5"
+        android:backgroundTint="#0E78CC"
         android:onClick="open"
         android:text="Next"
-        android:textColorHint="#084D85"
+        android:textColorHint="#106CB6"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="306dp"
         android:layout_height="465dp"
         android:layout_marginStart="58dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="47dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ba" />
@@ -49,8 +48,24 @@
         android:textColor="#213FE4"
         android:textColorHint="#2196F3"
         android:textSize="60sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="281dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/ln"
+        android:textColor="#2B2121"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
