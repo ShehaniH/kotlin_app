@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    android:backgroundTint="#76d1ff"
+    tools:context=".launching">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="194dp"
+        android:layout_height="85dp"
+
+        android:layout_marginStart="175dp"
+
+        android:layout_marginTop="116dp"
+
+        android:layout_marginEnd="42dp"
+
+        android:backgroundTint="#3F51B5"
+        android:onClick="open"
+        android:text="Next"
+        android:textColorHint="#084D85"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="306dp"
+        android:layout_height="465dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ba" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="170dp"
+        android:layout_height="147dp"
+        android:text="DAILY FLOW"
+        android:textColor="#213FE4"
+        android:textColorHint="#2196F3"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
