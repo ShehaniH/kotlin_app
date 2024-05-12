@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateTask">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/edittask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="Edit Task"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edittitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittask"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/poppins"
+            android:text="Task Title"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edittitleText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edittitle"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/orange_border"
+            android:hint="Enter the title"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/edittime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittitleText"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/poppins"
+            android:text="Task time"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edittimeText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edittime"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/orange_border"
+            android:hint="Enter the Description"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/editnote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittimeText"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/poppins"
+            android:text="Task note"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editnotetext"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/editnote"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/orange_border"
+            android:hint="Enter the Note"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/editpriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editnotetext"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/poppins"
+            android:text="Task Priority"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/editprioritytext"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/editpriority"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/orange_border"
+            android:hint="Enter Priority"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/updatesaveBtn"
+            android:layout_width="81dp"
+            android:layout_height="69dp"
+            android:layout_below="@+id/editprioritytext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="94dp"
+            android:src="@drawable/baseline_done_24" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
